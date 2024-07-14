@@ -1,1 +1,12 @@
-我是第一个文件
+我是第一个文件,但是我修改了，git diff默认比较的是暂存区和工作区的内容
+## 显示以下内容
+C:\Users\Marina\Desktop\learn-git\my-repo> git diff
+diff --git a/first.txt b/first.txt
+index e59afa6..91ecb10 100644
+--- a/first.txt
++++ b/first.txt
+@@ -1 +1 @@
+-我是第一个文件
+\ No newline at end of file
++我是第一个文件,但是我修改了
+\ No newline at end of file
