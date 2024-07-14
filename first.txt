@@ -1,4 +1,8 @@
-我是第一个文件,但是我修改了，git diff默认比较的是暂存区和工作区的内容
+我是第一个文件,但是我修改了
+--git diff默认比较的是暂存区和工作区的内容
+--git diff HEAD 比较的是工作区和仓库的内容
+--git diff -- cache 比较缓存区和仓库的内容
+--git diff +两个版本的提交id 比较两个版本之间的差异内容
 ## 显示以下内容
 C:\Users\Marina\Desktop\learn-git\my-repo> git diff
 diff --git a/first.txt b/first.txt
