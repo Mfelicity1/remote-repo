@@ -3,6 +3,8 @@
 --git diff HEAD 比较的是工作区和仓库的内容
 --git diff -- cache 比较缓存区和仓库的内容
 --git diff +两个版本的提交id 比较两个版本之间的差异内容，若是在后面加上对应文件名，就只会对比这个文件在两个版本的差异
+--git diff HEAD HEAD~ 比较当前版本与上一个版本
+--git diff HEAD HEAD~3 比较当前版本与上上上一个版本
 ## 显示以下内容
 C:\Users\Marina\Desktop\learn-git\my-repo> git diff
 diff --git a/first.txt b/first.txt

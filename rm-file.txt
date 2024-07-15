@@ -1,0 +1,2 @@
+git rm <file> 把文件从工作区和暂存区中删除
+git rm --cached <file> 把文件从暂存区中删除，但保留在工作区中
